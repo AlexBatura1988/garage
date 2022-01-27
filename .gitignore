@@ -1,6 +1,13 @@
 # Compiled class file
 *.class
+.DS_Store
+.idea
 
+!*.java
+!*.projects
+!*.classpath
+
+/.metadata/
 # Log file
 *.log
 
