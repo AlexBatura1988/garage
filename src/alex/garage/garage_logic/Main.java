@@ -13,8 +13,13 @@ public class Main {
 
 
 
-        FactoryCar.createCar("mazda","123", list,new ElectricEngine(1.5f,3),
-                CarColor.BLACK,NumberOfDoors.FIVE);
+        Vehicle truck = new Truck("Volvo","128",list,new FuelEngine(20f,40f,FuelType.SOLAR),
+                500f,false);
+        System.out.println(truck);
+
+        Vehicle motorcycle = new Motorcycle("ij planeta","887",list,new ElectricEngine(1.2f,
+                2.5f),LicenseType.A1,990);
+        System.out.println(motorcycle);
 
 
 
