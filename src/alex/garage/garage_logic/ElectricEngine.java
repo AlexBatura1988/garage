@@ -2,7 +2,6 @@ package alex.garage.garage_logic;
 
 public class ElectricEngine extends Engine {
 
-
     public ElectricEngine(float currentCapacity, float maxEnergyCapacity) {
         super(currentCapacity, maxEnergyCapacity);
     }
@@ -23,7 +22,6 @@ public class ElectricEngine extends Engine {
     public void fillMaxEnergy() {
         float maxBattery = getMaxEnergyCapacity();
         setCurrentCapacity(maxBattery);
-
     }
 
     public String toString() {
