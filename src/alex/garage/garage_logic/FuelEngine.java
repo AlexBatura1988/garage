@@ -8,6 +8,10 @@ public class FuelEngine extends Engine {
         this.fuelType = fuelType;
     }
 
+    public FuelType getFuelType() {
+        return fuelType;
+    }
+
     @Override
     public void addEnergy(float energyToAdd) {
         float currentEnergy = getCurrentCapacity();
